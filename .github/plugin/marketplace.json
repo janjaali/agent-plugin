@@ -1,0 +1,19 @@
+{
+  "name": "janjaali-agent-plugin",
+  "owner": {
+    "name": "janjaali",
+    "email": "ghashange@live.com"
+  },
+  "metadata": {
+    "description": "Marketplace wrapper for the janjaali-agent-plugin Agent Plugin — reusable, agent-agnostic skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "janjaali-agent-plugin",
+      "description": "Reusable, agent-agnostic skills: general code and markdown conventions, Scala ADR compliance, and a spec-driven development workflow.",
+      "version": "1.0.0",
+      "source": "."
+    }
+  ]
+}

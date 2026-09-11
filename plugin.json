@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "janjaali-agent-plugin",
+  "version": "1.0.0",
+  "description": "Reusable, agent-agnostic skills: general code and markdown conventions, Scala ADR compliance, and a spec-driven development workflow.",
+  "author": {
+    "name": "janjaali",
+    "email": "ghashange@live.com"
+  },
+  "repository": "https://github.com/janjaali/agent-plugin",
+  "license": "MIT",
+  "keywords": ["conventions", "adr", "spec-driven-development", "scala"]
+}

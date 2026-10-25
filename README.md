@@ -24,7 +24,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 - `skills/code-structure-and-documentation` — well-structured, fully documented code with why-comments and ~80-column line widths.
 - `skills/markdown-formatting` — no manual line-wrapping in markdown prose.
 - `skills/no-trailing-commas` — no trailing commas after the last element of comma-separated constructs, unless the language or a configured formatter requires one.
-- `skills/review-before-commit` — the user stages, reviews and explicitly approves every commit and push; the agent never stages.
+- `skills/git-development` — git conventions for agents (`skills/git-development/references/`): the agent commits and pushes only when asked (staging only the files it modified), and commit messages have a period-terminated subject plus a detailed body.
 - `skills/scala-development` — Scala conventions (`skills/scala-development/references/`) for test structure, file hygiene, sequence literal style, exhaustive pattern matching, HOCON comment syntax, and validation object return types.
 - `skills/spec-driven-development` — a spec-driven development workflow producing SPEC.md and companion documents (DESIGN.md, DOMAIN.md, DATABASE.md, KAFKA.md, CONVENTIONS.md).
 

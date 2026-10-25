@@ -1,11 +1,6 @@
----
-name: commit-message-formatting
-description: Formats commit messages with a concise subject line followed by a detailed explanation of what changed and why.
----
+# Commit Message Format
 
-# Commit Message Formatting
-
-Use this skill whenever creating or proposing a Git commit message.
+Use this whenever creating or proposing a Git commit message.
 
 ## Required format
 

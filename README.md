@@ -26,7 +26,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 - `skills/no-trailing-commas` — no trailing commas after the last element of comma-separated constructs, unless the language or a configured formatter requires one.
 - `skills/review-before-commit` — the user stages, reviews and explicitly approves every commit and push; the agent never stages.
 - `skills/scala-development` — Scala conventions (`skills/scala-development/references/`) for test structure, file hygiene, sequence literal style, exhaustive pattern matching, HOCON comment syntax, and validation object return types.
-- `skills/spec-workflow` — a spec-driven development workflow producing SPEC.md and companion documents (DESIGN.md, DOMAIN.md, DATABASE.md, KAFKA.md, CONVENTIONS.md).
+- `skills/spec-driven-development` — a spec-driven development workflow producing SPEC.md and companion documents (DESIGN.md, DOMAIN.md, DATABASE.md, KAFKA.md, CONVENTIONS.md).
 
 ## Repository structure
 

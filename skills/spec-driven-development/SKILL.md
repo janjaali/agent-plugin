@@ -1,5 +1,5 @@
 ---
-name: spec-workflow
+name: spec-driven-development
 user-invocable: true
 description: |
    **WORKFLOW SKILL** — Interview the user about specification changes and generate one or more standalone SPEC.md documents (one per spec folder) that serve as a high-level overview of the component or process: contract, behavior, and business intent, captured as user stories and EARS-notation acceptance criteria. Technical architecture, diagrams, and implementation-level detail live in companion documents (DESIGN.md, DOMAIN.md, DATABASE.md, KAFKA.md, CONVENTIONS.md). The agent uses SPEC.md plus companion documents together for planning and code generation.

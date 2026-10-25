@@ -5,7 +5,7 @@ description: Scala development conventions for writing or reviewing Scala code a
 
 # Scala Development
 
-Each item below is a brief summary. Full rationale, decision text, and checklists are in the linked records under `references/`; read the full record before applying it to non-trivial work. The `SCALA-NNNN` numbering is specific to this skill and independent of the repository's own `docs/adr/` records.
+Each item below is a brief summary. Full rationale, decision text, and checklists are in the linked records under `references/`; read the full record before applying it to non-trivial work. The `SCALA-NNNN` numbering is specific to this skill; the general `CODE-NNNN` records live in `code-development`.
 
 ## Code and tests
 

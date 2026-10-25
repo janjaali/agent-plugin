@@ -1,4 +1,4 @@
-# ADR-0002: Generated Code Must Be Well-Structured, Fully Documented, And Wrapped Near 80 Columns
+# CODE-0002: Generated Code Must Be Well-Structured, Fully Documented, And Wrapped Near 80 Columns
 
 - Status: Proposed
 - Date: 2026-08-09
@@ -7,7 +7,7 @@
 
 Generated code across organization repositories varies a lot in structure, documentation quality, and line-width consistency. When no explicit convention is provided, assistants tend to produce minimal-comment output, which can be fine for throwaway examples but is risky for long-lived shared code. Important context such as invariants, workarounds, and non-obvious constraints can remain undocumented, making later maintenance harder for engineers who did not author the original change. Likewise, when line width is left unspecified, generated lines can become arbitrarily long, reducing readability in side-by-side diffs, review tools, and terminal workflows that assume roughly 80 columns.
 
-This ADR is intentionally language-agnostic. It does not replace language- or repo-specific standards (for example, the records in `scala-development` or a repository's own `.scalafmt.conf` and `.editorconfig`); it defines a baseline where no narrower convention exists, and its qualitative expectations around structure and documentation apply everywhere. It also does not modify ADR-0001. ADR-0001 governs markdown *prose* (paragraphs, list item text, table cell text), which remains unwrapped, while this ADR governs *code*, including fenced code blocks in markdown.
+This ADR is intentionally language-agnostic. It does not replace language- or repo-specific standards (for example, the `SCALA-NNNN` records in `scala-development` or a repository's own `.scalafmt.conf` and `.editorconfig`); it defines a baseline where no narrower convention exists, and its qualitative expectations around structure and documentation apply everywhere. It also does not modify CODE-0001. CODE-0001 governs markdown *prose* (paragraphs, list item text, table cell text), which remains unwrapped, while this ADR governs *code*, including fenced code blocks in markdown.
 
 ## Decision
 

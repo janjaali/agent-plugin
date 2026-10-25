@@ -21,7 +21,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 
 ## Skills
 
-- `skills/code-development` — general conventions for code and markdown (`skills/code-development/references/`): structure, doc comments, why-comments, ~80-column line widths, no trailing commas, and no hard-wrapped markdown prose.
+- `skills/code-development` — general conventions for markdown and code (`skills/code-development/references/`): uppercase markdown filenames, no hard-wrapped prose, structure, doc comments, why-comments, ~80-column line widths, and no trailing commas.
 - `skills/git-development` — git conventions for agents (`skills/git-development/references/`): the agent commits and pushes only when asked (staging only the files it modified), and commit messages have a period-terminated subject plus a detailed body.
 - `skills/scala-development` — Scala conventions (`skills/scala-development/references/`) for test structure, file hygiene, sequence literal style, exhaustive pattern matching, HOCON comment syntax, and validation object return types.
 - `skills/spec-driven-development` — a spec-driven development workflow producing SPEC.md and companion documents (DESIGN.md, DOMAIN.md, DATABASE.md, KAFKA.md, CONVENTIONS.md).
@@ -31,8 +31,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 ```text
 plugin.json                       # Agent Plugins manifest ($schema: https://agent-plugins.org/schemas/1.0.0/plugin.schema.json)
 skills/<skill-name>/SKILL.md      # Skill definition (YAML frontmatter: name, description)
-skills/<skill-name>/...           # Optional supporting files (for example, references/ for scala-development)
-docs/adr/                         # ADRs that govern this repository itself
+skills/<skill-name>/...           # Optional supporting files (for example, references/ with ADRs for code-development and scala-development)
 .github/plugin/marketplace.json   # Copilot CLI marketplace wrapper, not part of the Agent Plugins spec
 ```
 
@@ -42,8 +41,8 @@ This repository is a single plugin, not a marketplace of plugins — `plugin.jso
 
 1. Add a subdirectory under `skills/<skill-name>/` with a `SKILL.md` file (YAML frontmatter with `name` and `description`, followed by the skill's instructions).
 2. Keep the `description` specific enough that a client can determine when the skill applies.
-3. Place any supporting files (references, scripts, ADRs) alongside the skill's `SKILL.md`.
-4. Follow this repository's own ADRs in `docs/adr/` — for example, avoid hard-wrapping markdown prose.
+3. Place any supporting files (references, scripts, ADRs) alongside the skill's `SKILL.md`, and number ADRs with a skill-specific prefix (for example `CODE-0001`, `SCALA-0001`).
+4. Follow the `code-development` skill's conventions in this repository too — for example, avoid hard-wrapping markdown prose.
 
 ## Why `marketplace.json`?
 

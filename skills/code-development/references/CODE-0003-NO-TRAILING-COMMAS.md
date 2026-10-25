@@ -1,4 +1,4 @@
-# ADR-0003: No Trailing Commas In Code
+# CODE-0003: No Trailing Commas In Code
 
 - Status: Approved
 - Date: 2026-10-25

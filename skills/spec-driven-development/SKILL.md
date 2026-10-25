@@ -79,7 +79,7 @@ Links to companion documents (including DESIGN.md, when present) and source file
 
 ## Formatting & Section Discipline
 
-- Follow the markdown formatting conventions (this plugin's `markdown-formatting` skill) — no manual line-wrapping in markdown files.
+- Follow the markdown formatting conventions (this plugin's `code-development` skill) — no manual line-wrapping in markdown files.
 - Do not invent sections beyond the template above (no "Implementation Plan", "Agent Responsibilities", "Architecture", "Diagrams", etc.) — planning belongs in the conversation or a task tracker, and technical architecture/diagrams belong in DESIGN.md, not the spec.
 - No source-level types or signatures in SPEC.md, ever — that detail belongs in the companion documents below.
 - State current behavior as fact, not as a change narrative. Write what the system does, not the history of how it got there — avoid words like "now", "was added", "used to be", "revisit once implemented". When a change lands, edit the affected section(s) to read as if they were always true; don't append a note describing the change.

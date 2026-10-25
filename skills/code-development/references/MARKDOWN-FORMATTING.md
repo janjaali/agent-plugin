@@ -1,11 +1,6 @@
----
-name: markdown-formatting
-description: Enforces markdown formatting conventions org-wide — no manual line-wrapping in prose. Applies to all markdown files (SPEC.md, ADRs, READMEs, docs) regardless of repo or language.
----
-
 # Markdown Formatting
 
-Per ADR-0001 (`docs/adr/0001-no-hard-wrapping-in-markdown-files.md` in this repo), do not hard-wrap markdown prose at a fixed column.
+Per ADR-0001 (`docs/adr/0001-NO-HARD-WRAPPING-IN-MARKDOWN-FILES.md` in this repo), do not hard-wrap markdown prose at a fixed column.
 
 ## Rule
 

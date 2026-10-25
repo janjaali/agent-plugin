@@ -31,7 +31,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 ```text
 plugin.json                       # Agent Plugins manifest ($schema: https://agent-plugins.org/schemas/1.0.0/plugin.schema.json)
 skills/<skill-name>/SKILL.md      # Skill definition (YAML frontmatter: name, description)
-skills/<skill-name>/...           # Optional supporting files (for example, references/ with ADRs for code-development and scala-development)
+skills/<skill-name>/...           # Optional supporting files (for example, references/ with ADRs for code-development, git-development and scala-development)
 .github/plugin/marketplace.json   # Copilot CLI marketplace wrapper, not part of the Agent Plugins spec
 ```
 
@@ -41,7 +41,7 @@ This repository is a single plugin, not a marketplace of plugins — `plugin.jso
 
 1. Add a subdirectory under `skills/<skill-name>/` with a `SKILL.md` file (YAML frontmatter with `name` and `description`, followed by the skill's instructions).
 2. Keep the `description` specific enough that a client can determine when the skill applies.
-3. Place any supporting files (references, scripts, ADRs) alongside the skill's `SKILL.md`, and number ADRs with a skill-specific prefix (for example `CODE-0001`, `SCALA-0001`).
+3. Put supporting files in a `references/` subfolder next to the skill's `SKILL.md`, and link each from `SKILL.md` with a one-line summary. Write every reference as an ADR named with a skill-specific prefix and number (for example `CODE-0001-...`, `SCALA-0001-...`, `GIT-0001-...`).
 4. Follow the `code-development` skill's conventions in this repository too — for example, avoid hard-wrapping markdown prose.
 
 ## Why `marketplace.json`?

@@ -1,4 +1,4 @@
-# ADR-0002: Scalafix And Scalafmt File Hygiene
+# SCALA-0002: Scalafix And Scalafmt File Hygiene
 
 - Status: Proposed
 - Date: 2026-08-09

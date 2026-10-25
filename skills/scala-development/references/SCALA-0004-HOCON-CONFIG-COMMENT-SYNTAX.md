@@ -1,4 +1,4 @@
-# ADR-0004: Prefer `#` Over `//` For Comments In HOCON Configuration Files
+# SCALA-0004: Prefer `#` Over `//` For Comments In HOCON Configuration Files
 
 - Status: Accepted
 - Date: 2026-08-09

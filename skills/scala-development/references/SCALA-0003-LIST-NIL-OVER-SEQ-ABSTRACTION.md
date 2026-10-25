@@ -1,4 +1,4 @@
-# ADR-0003: Prefer `List`/`Nil` Over `Seq`/`Seq.empty` For Sequence Literals
+# SCALA-0003: Prefer `List`/`Nil` Over `Seq`/`Seq.empty` For Sequence Literals
 
 - Status: Proposed
 - Date: 2026-08-09

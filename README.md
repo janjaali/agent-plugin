@@ -25,7 +25,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 - `skills/markdown-formatting` — no manual line-wrapping in markdown prose.
 - `skills/no-trailing-commas` — no trailing commas after the last element of comma-separated constructs, unless the language or a configured formatter requires one.
 - `skills/review-before-commit` — the user stages, reviews and explicitly approves every commit and push; the agent never stages.
-- `skills/adr-compliance` — enforces this plugin's Scala ADRs (`skills/adr-compliance/adr/`) for test structure, file hygiene, sequence literal style, exhaustive pattern matching, HOCON comment syntax, and validation object return types.
+- `skills/scala-development` — Scala conventions (`skills/scala-development/references/`) for test structure, file hygiene, sequence literal style, exhaustive pattern matching, HOCON comment syntax, and validation object return types.
 - `skills/spec-workflow` — a spec-driven development workflow producing SPEC.md and companion documents (DESIGN.md, DOMAIN.md, DATABASE.md, KAFKA.md, CONVENTIONS.md).
 
 ## Repository structure
@@ -33,7 +33,7 @@ Any client that implements the Agent Plugins specification can load this reposit
 ```text
 plugin.json                       # Agent Plugins manifest ($schema: https://agent-plugins.org/schemas/1.0.0/plugin.schema.json)
 skills/<skill-name>/SKILL.md      # Skill definition (YAML frontmatter: name, description)
-skills/<skill-name>/...           # Optional supporting files (for example, adr/ for adr-compliance)
+skills/<skill-name>/...           # Optional supporting files (for example, references/ for scala-development)
 docs/adr/                         # ADRs that govern this repository itself
 .github/plugin/marketplace.json   # Copilot CLI marketplace wrapper, not part of the Agent Plugins spec
 ```

@@ -1,4 +1,4 @@
-# ADR-0008: `domain.validation` Objects Return `Option[Rejection]` Unless They Produce a Validated Value
+# SCALA-0006: `domain.validation` Objects Return `Option[Rejection]` Unless They Produce a Validated Value
 
 - Status: Proposed
 - Date: 2026-08-09

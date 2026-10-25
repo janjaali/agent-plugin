@@ -1,4 +1,4 @@
-# ADR-0005: No Partial Functions — Pattern Matches Over Sealed Hierarchies Must Be Exhaustive
+# SCALA-0005: No Partial Functions — Pattern Matches Over Sealed Hierarchies Must Be Exhaustive
 
 - Status: Proposed
 - Date: 2026-08-09

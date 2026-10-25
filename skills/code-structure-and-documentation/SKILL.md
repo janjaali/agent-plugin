@@ -7,7 +7,7 @@ description: Enforces structure, documentation, comment, and ~80-column line-wid
 
 Per ADR-0002 (`docs/adr/0002-well-structured-documented-80-column-code.md` in this repo), generated code must be well-structured, fully documented at its public surface, commented on the *why* wherever it isn't obvious, and wrapped near 80 columns.
 
-This is a baseline that applies everywhere, regardless of language. It does not override a more specific, already-established convention — for example a repository's own `.scalafmt.conf`/`.editorconfig` line-width setting, or a language-specific ADR such as this plugin's `adr-compliance` skill. Where a more specific convention exists, follow it; this skill fills the gap where none does.
+This is a baseline that applies everywhere, regardless of language. It does not override a more specific, already-established convention — for example a repository's own `.scalafmt.conf`/`.editorconfig` line-width setting, or a language-specific convention such as this plugin's `scala-development` skill. Where a more specific convention exists, follow it; this skill fills the gap where none does.
 
 ## Rules
 

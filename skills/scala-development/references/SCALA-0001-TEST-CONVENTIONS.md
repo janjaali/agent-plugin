@@ -1,4 +1,4 @@
-# ADR-0001: Scala Test Conventions
+# SCALA-0001: Scala Test Conventions
 
 - Status: Proposed
 - Date: 2026-08-09
